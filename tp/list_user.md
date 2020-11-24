@@ -22,6 +22,9 @@ Analysez le [code situé du projet](https://codesandbox.io/s/tp-props-q0wln?file
 
 **8. Ajoutez un paragraphe `p` au composant `User` pour afficher la date de naissance sous la forme "Né le 27/02/1942" pour un homme ou "Née le 27/02/1942" pour une femme en utilisant une condition ternaire. Copiez le code ajouté dans ce document en guise de réponse.**
 
+'''{props.gender === "male" ? "Né le 27/02/1942" : "Née le 27/02/1942"}'''
+
+
 (Pensez à mettre votre code dans des balises Markdown  !!)
 
 ## Rédaction de tests
